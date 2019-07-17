@@ -84,8 +84,8 @@ export default class Main extends Component {
 					<Button handleClick={this.handleClick} type={"Add a SLogan"}/>
 					{!!this.state.isPosting ? (
 						<Form handleAddPost={this.handleAddPost} />
-						) : null}		
-						<ul>{postsList}</ul>						
+						) : null}	
+							<ul>{postsList}</ul>			
 				</section>
 			</div>
 		)

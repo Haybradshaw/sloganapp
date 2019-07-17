@@ -3,6 +3,7 @@ import Button from '../Button';
 
 function BlogPost ({title, author, post, index, handleDeletePost}) {
     return (
+        <div className="card">
         <li>
             <h3>{title}</h3>
             <h5>{author}</h5>
@@ -13,6 +14,7 @@ function BlogPost ({title, author, post, index, handleDeletePost}) {
             handleDeletePost={handleDeletePost}
             />
         </li>
+        </div>
     )
 }
 
