@@ -78,7 +78,7 @@ export default class Main extends Component {
 				return (
 					<div>
 				<header>
-					<h1>Slogan Poster</h1>
+					<h1>Slogan Wall</h1>
 				</header>
 				<section>
 					<Button handleClick={this.handleClick} type={"Add a SLogan"}/>
